@@ -3,7 +3,7 @@ const STEPS = {
   longTimeAgo: 0, // from play to "Long Time Ago.." intro
   demoday: 4, // from "Long time ago..." to "Demo Day" duration
   rollText: 10, // from demo day to Rolling text duration
-  closing: 60 //from text rolling to closing
+  closing: 100 //from text rolling to closing
 };
 for (const key in STEPS) {
   STEPS[key] = STEPS[key]*1000;
