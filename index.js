@@ -60,7 +60,7 @@ const initJingle = (event) => {
   setTimeout(showDemoDay, STEPS.demoday);
   setTimeout(() => hide(demoday), STEPS.rollText)
 
-  setTimeout(showRollingText, STEPS.rollText - 1000);
+  setTimeout(showRollingText, STEPS.rollText - 10000);
   setTimeout(() => hide(rollText), STEPS.closing);
 
   setTimeout(() => show(goodLuck), STEPS.closing + 200);
